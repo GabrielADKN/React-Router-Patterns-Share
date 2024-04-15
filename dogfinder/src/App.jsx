@@ -1,13 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import './App.css';
+import DogList from './DogList';
+import DogDetails from './DogDetails';
+import Nav from './Nav';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Good luck!</h1>
-    </div>
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/dogs" element={<DogList />} />
+        <Route path="/dogs/:name" element={<DogDetails />} />
+        <Route path="*" element={<Navigate replace to="/dogs" />} />
+      </Routes>
+    </>
   );
 }
 
