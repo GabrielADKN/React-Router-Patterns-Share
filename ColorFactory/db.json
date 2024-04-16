@@ -1,0 +1,39 @@
+{
+  "colors": [
+      {
+        "id": 1,
+        "name": "red",
+        "hex": "#f00"
+      },
+      {
+        "id": 2,
+        "name": "green",
+        "hex": "#0f0"
+      },
+      {
+        "id": 3,
+        "name": "blue",
+        "hex": "#00f"
+      },
+      {
+        "id": 4,
+        "name": "cyan",
+        "hex": "#0ff"
+      },
+      {
+        "id": 5,
+        "name": "magenta",
+        "hex": "#f0f"
+      },
+      {
+        "id": 6,
+        "name": "yellow",
+        "hex": "#ff0"
+      },
+      {
+        "id": 7,
+        "name": "black",
+        "hex": "#000"
+      }
+    ]
+}

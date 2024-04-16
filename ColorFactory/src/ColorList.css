@@ -1,0 +1,42 @@
+.color-list {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.color-list .title {
+    text-align: center;
+    color: #333;
+}
+
+.color-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.color-ul li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.color-ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.color-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+
+.color-link:hover {
+    text-decoration:none;
+}
